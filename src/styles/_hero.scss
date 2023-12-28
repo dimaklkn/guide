@@ -1,0 +1,28 @@
+.hero {
+    width: 100%;
+    background-image: url("../images/bricks.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: calc(100vh - 4.7119375rem);
+    font-family: 'Russo One', sans-serif;
+    color: $white;
+    overflow: hidden;
+    text-align: center;
+}
+
+.hero-text {
+   margin-top: 15rem;
+   h1{
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    margin-bottom: 6rem;
+   }
+   h2{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+   }
+   
+}
+
