@@ -8,6 +8,7 @@ import About from "./pages/About";
 import Artefacts from "./pages/Artefacts";
 import People from "./pages/People";
 import Places from "./pages/Places";
+import Person from "./pages/Person";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/artefacts" element={<Artefacts />} />
         <Route path="/people" element={<People />} />
         <Route path="/about" element={<About />} />
+        <Route path="/people/:id" element={<Person />} />
       </Routes>
     </Router>
   );

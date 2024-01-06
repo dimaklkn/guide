@@ -1,3 +1,4 @@
+import React from "react";
 //import data of people
 import peopleData from "../data/peopleData";
 //import components
