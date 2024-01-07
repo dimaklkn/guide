@@ -20,7 +20,7 @@ const Navbar = () => {
       <div
         className={
           isFirstRender
-            ? "overlay"
+            ? "overlay__none"
             : isMenuOpen
             ? "overlay has-fade fade-in"
             : "overlay has-fade fade-out"

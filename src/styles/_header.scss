@@ -26,6 +26,9 @@
         bottom: 0px;
         left: 0px;
         background-image: linear-gradient($darkBlue, transparent);
+        &__none {
+            display: none;
+        }
     }
 
     nav {

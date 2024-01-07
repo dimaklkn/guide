@@ -3,6 +3,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
+$primary-color: hsl(233, 8%, 62%);
+@import '~loaders.css/src/animations/line-scale.scss';
+
+.loader-hidden {
+    display: none;
+}
+
+.loader-active {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+}
+
 html {
     font-size: 100%;
     box-sizing: border-box;
