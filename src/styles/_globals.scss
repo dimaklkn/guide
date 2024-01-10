@@ -14,7 +14,8 @@ $primary-color: hsl(233, 8%, 62%);
     display: block;
     position: absolute;
     top: 50%;
-    left: 45%;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 html {
@@ -138,7 +139,6 @@ button,
 
 //cards-container
 .cards-container {
-    background-image: url("../images/church.jpg");
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -149,3 +149,14 @@ button,
     justify-content: space-around;
 }
 
+.people {
+ background-image: url("../images/church.jpg");
+}
+
+.places {
+    background-image: url("../images/oldfactory.jpg");
+}
+
+.artefacts {
+    background-image: url("../images/oldfactory2.jpg");
+}

@@ -8,13 +8,13 @@ import peopleData from "../data/peopleData";
 import PreviewCard from "../components/PreviewCard";
 
 const People = () => {
-  const isLoading = useLoader();
+  const isLoading = useLoader(500);
   return (
     <>
       {isLoading ? (
         <MyLoader />
       ) : (
-        <div className="container cards-container has-fade fade-in">
+        <div className="container people cards-container has-fade fade-in">
           {peopleData.map((card) => {
             return <PreviewCard {...card} key={card.id} />;
           })}
