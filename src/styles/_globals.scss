@@ -10,6 +10,11 @@ $primary-color: hsl(233, 8%, 62%);
     display: none;
 }
 
+::-webkit-scrollbar {
+    width: 0.1em;
+    background-color: #F5F5F5;
+}
+
 .loader-active {
     display: block;
     position: absolute;
@@ -31,7 +36,11 @@ html {
 }
 
 body {
-    background-color: $veryLightGray;
+    background-image: url("../images/bricks.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
     margin: 0;
     padding: 0;
     font-family: "Public Sans";
@@ -139,24 +148,9 @@ button,
 
 //cards-container
 .cards-container {
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
+    padding-top: 2rem;
     min-height: calc(100vh - 4.7119375rem);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-}
-
-.people {
- background-image: url("../images/church.jpg");
-}
-
-.places {
-    background-image: url("../images/oldfactory.jpg");
-}
-
-.artefacts {
-    background-image: url("../images/oldfactory2.jpg");
 }

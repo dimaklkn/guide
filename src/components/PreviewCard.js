@@ -8,7 +8,7 @@ const PreviewCard = (props) => {
 
   return (
     <article
-      className="previewcard"
+      className="previewcard has-fade fade-in"
       onClick={() => {
         setDescription(text);
         setTitle(title);
